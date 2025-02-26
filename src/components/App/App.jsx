@@ -25,9 +25,7 @@ export const App = ({ children }) => {
           }
         `}
       </style>
-      <div>
-        {children}
-      </div>
+      <div>{children}</div>
     </div>
   );
 };
